@@ -371,7 +371,7 @@ FixedPointSolve::solveStep(Real & begin_norm,
 
   _executioner.preSolve();
   _problem.execTransfers(EXEC_TIMESTEP_BEGIN);
-
+  _problem.execute(EXEC_CUSTOM);
   if (_fixed_point_it == 0)
   {
     _problem.execute(EXEC_MULTIAPP_FIXED_POINT_BEGIN);
