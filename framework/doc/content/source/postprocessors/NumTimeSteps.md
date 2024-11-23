@@ -8,7 +8,7 @@
 
 ## Example Input Syntax
 
-# !listing test/tests/time_steppers/iteration_adaptive/adapt_tstep_grow_init_dt.i block=Postprocessors
+!listing /Users/achaube/tools/moose/test/tests/postprocessors/num_time_steps/moose.i block=Postprocessors
 
 !syntax parameters /Postprocessors/NumTimeSteps
 
